@@ -17,12 +17,13 @@ namespace WebApplication1.Models
 
         }
 
-        public SalesRecord(int id, DateTime date, double amount, SaleStatus status, Seller s1)
+        public SalesRecord(int id, DateTime date, double amount, SaleStatus status, Seller seller)
         {
             Id = id;
             Date = date;
             Amount = amount;
             Status = status;
+            Seller = seller;
         }
     }
 }
