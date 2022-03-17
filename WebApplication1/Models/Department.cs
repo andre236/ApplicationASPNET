@@ -31,7 +31,7 @@ namespace WebApplication1.Models
             Sellers.Remove(seller);
         }
 
-        public double TotalSalles(DateTime initial, DateTime final)
+        public double TotalSales(DateTime initial, DateTime final)
         {
             // In class seller, I am getting the sum of Sales for each Seller using Sum here.
             return Sellers.Sum(seller => seller.TotalSales(initial, final));
